@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bold"
+        android:gravity="center"
+        android:text="Quran App"
+        android:textColor="@color/dark_green"
+        android:textSize="50dp"
+
+        />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/playfairdisplay"
+        android:gravity="center"
+        android:text=" 'So, when the Qur'an is recited, listen to it, and be silent that you may receive mercy. ' "
+        android:textColor="@color/green"
+        android:textSize="20dp"
+        android:textStyle="bold"
+
+        />
+
+    <ImageView
+        android:layout_width="420dp"
+        android:layout_height="600dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/emptyrectangle"
+        android:src="@mipmap/mosque1" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/getStarted"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="-25dp"
+        android:background="@drawable/button"
+        android:text="GET STARTED"
+        android:textColor="@color/white" />
+
+
+</LinearLayout>
